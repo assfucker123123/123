@@ -1,7 +1,7 @@
 # для страницы
-u_admins = [626727521]
-bot_id = 626727521
-u_token = '066ad48c26dc8670613faf1f7346bcdde58be3977080ca63027199037ccd9e58bf1be38c3029c9aa655e1'
+u_admins = []
+bot_id = 
+u_token = ''
 
 # для группы
 g_admins = []
