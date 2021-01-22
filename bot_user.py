@@ -11,7 +11,7 @@ longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
 
 
-def send_msg_reply(reply_to int, peer_id: int, message: str, attachment: str = ""):
+def send_msg_reply(reply_to: int, peer_id: int, message: str, attachment: str = ""):
     return vk.messages.send(**locals(), random_id=0)
 
 
